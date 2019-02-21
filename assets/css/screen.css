@@ -1507,6 +1507,39 @@ body.nav-opened .site-wrapper {
     text-align: center;
 }
 
+.search-form {
+    width: 100%;
+    padding: 8px 8px;
+}
+.search-field {
+    width: auto;
+    min-width: 70%;
+}
+.search-submit {
+    float: right;
+}
+
+.results-info {
+    font-size: 0.9em;
+    color: rgb(189, 185, 184);
+    padding-left: 8px;
+}
+.result-item {
+    padding-left: 8px;
+}
+
+.result-title {
+    font-weight: bold;
+}
+.result-date {
+    font-size: 0.7em;
+    height: 14px;
+    line-height: 100%;
+    display: block;
+    text-align: left;
+    padding-bottom: 8px;
+}
+
 /* ==========================================================================
    13. Post Nav
    ========================================================================== */

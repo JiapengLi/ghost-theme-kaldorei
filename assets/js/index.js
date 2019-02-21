@@ -8,7 +8,7 @@
     "use strict";
 
     var $document = $(document);
-
+    console.log("wtf")
     $document.ready(function() {
         var $postContent = $(".post-content");
         $postContent.fitVids();
@@ -121,6 +121,18 @@
                 "</div></div>";
             $("[date='" + uniqueYear[i] + "']:first").before(html);
         }
+
+        $("#search-field").ghostHunter({
+            rss: "{{@blog.url}}/rss/",
+            results: "#search-results",
+            onKeyUp: true,
+            onPageLoad: true,
+            includepages: true,
+            displaySearchInfo: true,
+            zeroResultsInfo: true,
+            info_template: '<div class="results-info">Posts found: {{amount}}</div>',
+            result_template: '<div class="result-item"><a href="{{link}}"><div class="result-title">{{title}}</div><div class="result-date">{{pubDate}}</div></a></div>'
+        });
     });
 
     // Arctic Scroll by Paul Adam Davis
