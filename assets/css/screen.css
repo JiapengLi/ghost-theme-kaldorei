@@ -1508,15 +1508,15 @@ body.nav-opened .site-wrapper {
 }
 
 .search-form {
-    width: 100%;
     padding: 8px 8px;
+    display: flex;
 }
 .search-field {
-    width: auto;
-    min-width: 70%;
+    width: 100%;
+    overflow:hidden;
 }
 .search-submit {
-    float: right;
+    width: 63px;
 }
 
 .results-info {
