@@ -35,8 +35,13 @@
   "Profile Posts": "Posts",
   "Profile Featured": "Featured",
   "Profile Tags": "Tags",
+  "Site PV": "Page View",
+  "Site UV": "User View",
   "Add Blog Description": "Add Blog Description",
   "Weibo": "Weibo",
+  "Twitter": "Twitter",
+  "Douban": "Douban",
+  "Jianshu": "Jianshu",
   "Github": "Github",
   "NeteaseMusic": "NeteaseMusic",
   "Contact Me": "Contact Me",
@@ -47,5 +52,11 @@
   "more posts": "more posts",
   "by this author": "by this author",
   "toc": "Table of contents",
-  "Search": "Search"
+  "Search": "Search",
+  "Click to add bio": "Click to add bio",
+  "Created on": "Created on",
+  "Last edited": "Last edited",
+  "Comments board loading ...": "Comments board loading ...",
+  "Site views": "Site views",
+  "Proudly published with {ghost_link}, Theme {theme_link}, Modified by {ctheme_link}":"Proudly published with {ghost_link}, Theme {theme_link}, Modified by {ctheme_link}"
 }
